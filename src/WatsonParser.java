@@ -8,7 +8,7 @@ public class WatsonParser {
     public static void main(String args[]) {
         try
         {
-            Parser parser = new Parser (args[0]);
+            Parser parser = new Parser ("http://docs.oracle.com/javase/specs/jls/se7/html/jls-1.html");
             NodeList list = parser.parse(new TagNameFilter("P"));
             System.out.println(list.toHtml());
         }
