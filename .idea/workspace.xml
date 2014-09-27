@@ -1,14 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/src/WatsonParser.java" line="16" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="0137c622-8c42-4ca1-b750-7a37f0710757" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\Users\tony\IdeaProjects\watson_document_parser\.idea\libraries\java_libraries.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\tony\IdeaProjects\watson_document_parser\WatsonParser.iml" afterPath="" />
+    <list default="true" id="0137c622-8c42-4ca1-b750-7a37f0710757" name="Default" comment="Pulling out &lt;title&gt;, &lt;h&gt;, and &lt;p&gt; tags. Clearing out as much formatting junk as possible. Adding tabs and newlines to make it more human readable.">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/watson_document_parser.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/WatsonParser.java" afterPath="$PROJECT_DIR$/src/WatsonParser.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="WatsonParser.iws" />
@@ -35,13 +30,50 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="WatsonParser.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="WatsonParser.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/WatsonParser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5184591" vertical-offset="0" max-vertical-offset="623">
-              <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="1081" max-vertical-offset="1768">
+              <caret line="86" column="41" selection-start-line="86" selection-start-column="41" selection-end-line="86" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="parsed.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/parsed.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-22.467487" vertical-offset="13209" max-vertical-offset="34119">
+              <caret line="25" column="37" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
+              <folding>
+                <element signature="n#style#0;n#br#0;n#p#29;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#br#0;n#p#55;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#br#1;n#p#55;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#br#0;n#p#56;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#br#1;n#p#56;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#br#0;n#p#57;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#br#1;n#p#57;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#br#0;n#p#61;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#br#0;n#p#82;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#br#0;n#p#362;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#br#0;n#p#367;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#br#0;n#p#369;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#code#0;n#p#1361;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#code#0;n#code#0;n#p#1361;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#code#0;n#code#0;n#code#0;n#p#1361;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#code#0;n#code#0;n#code#0;n#code#0;n#p#1361;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#code#0;n#code#0;n#code#0;n#code#0;n#code#0;n#p#1361;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#code#0;n#code#0;n#code#0;n#code#0;n#code#0;n#code#0;n#p#1361;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#code#0;n#code#0;n#code#0;n#code#0;n#code#0;n#code#0;n#code#0;n#p#1361;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#code#0;n#p#1363;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#code#0;n#code#0;n#p#1363;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#code#0;n#code#0;n#code#0;n#p#1363;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#code#0;n#code#0;n#code#0;n#code#0;n#p#1363;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#code#0;n#code#0;n#code#0;n#code#0;n#code#0;n#p#1363;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#code#0;n#code#0;n#code#0;n#code#0;n#code#0;n#code#0;n#p#1363;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#code#0;n#code#0;n#code#0;n#code#0;n#code#0;n#code#0;n#code#0;n#p#1363;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -62,15 +94,16 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/parsed.html" />
         <option value="$PROJECT_DIR$/src/WatsonParser.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="135" />
-    <option name="y" value="17" />
-    <option name="width" value="1400" />
-    <option name="height" value="1000" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -100,16 +133,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -144,6 +167,16 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -163,7 +196,7 @@
     <property name="restartRequiresConfirmation" value="true" />
     <property name="full.screen.before.presentation.mode" value="false" />
     <property name="FullScreen" value="false" />
-    <property name="options.lastSelected" value="vcs.Git" />
+    <property name="options.lastSelected" value="editor" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
@@ -394,16 +427,23 @@
       <updated>1411793331676</updated>
       <workItem from="1411793334935" duration="1257000" />
       <workItem from="1411794652969" duration="1201000" />
-      <workItem from="1411799232995" duration="325000" />
+      <workItem from="1411799232995" duration="1110000" />
+      <workItem from="1411807583699" duration="169000" />
+      <workItem from="1411812875907" duration="14006000" />
     </task>
+    <task id="LOCAL-00001" summary="hardcoded sample page">
+      <created>1411799584540</created>
+      <updated>1411799584540</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2783000" />
+    <option name="totallyTimeSpent" value="17743000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="135" y="17" width="1400" height="1000" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -418,19 +458,19 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32911393" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27017936" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18020834" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24578059" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -476,15 +516,40 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <MESSAGE value="hardcoded sample page" />
+    <MESSAGE value="Pulling out &lt;title&gt;, &lt;h&gt;, and &lt;p&gt; tags. Clearing out as much formatting junk as possible. Adding tabs and newlines to make it more human readable." />
+    <option name="LAST_COMMIT_MESSAGE" value="Pulling out &lt;title&gt;, &lt;h&gt;, and &lt;p&gt; tags. Clearing out as much formatting junk as possible. Adding tabs and newlines to make it more human readable." />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/WatsonParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="425">
+          <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/WatsonParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="425">
+          <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/WatsonParser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="425">
@@ -512,12 +577,63 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/filterbuilder.jar!/org/htmlparser/parserapplications/filterbuilder/Filter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="15.6" vertical-offset="475" max-vertical-offset="1020">
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/htmlparser.jar!/org/htmlparser/filters/OrFilter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14166667" vertical-offset="0" max-vertical-offset="600">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/WatsonParser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5184591" vertical-offset="0" max-vertical-offset="623">
-          <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="1081" max-vertical-offset="1768">
+          <caret line="86" column="41" selection-start-line="86" selection-start-column="41" selection-end-line="86" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parsed.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-22.467487" vertical-offset="13209" max-vertical-offset="34119">
+          <caret line="25" column="37" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
+          <folding>
+            <element signature="n#style#0;n#br#0;n#p#29;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#br#0;n#p#55;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#br#1;n#p#55;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#br#0;n#p#56;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#br#1;n#p#56;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#br#0;n#p#57;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#br#1;n#p#57;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#br#0;n#p#61;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#br#0;n#p#82;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#br#0;n#p#362;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#br#0;n#p#367;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#br#0;n#p#369;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#code#0;n#p#1361;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#code#0;n#code#0;n#p#1361;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#code#0;n#code#0;n#code#0;n#p#1361;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#code#0;n#code#0;n#code#0;n#code#0;n#p#1361;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#code#0;n#code#0;n#code#0;n#code#0;n#code#0;n#p#1361;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#code#0;n#code#0;n#code#0;n#code#0;n#code#0;n#code#0;n#p#1361;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#code#0;n#code#0;n#code#0;n#code#0;n#code#0;n#code#0;n#code#0;n#p#1361;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#code#0;n#p#1363;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#code#0;n#code#0;n#p#1363;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#code#0;n#code#0;n#code#0;n#p#1363;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#code#0;n#code#0;n#code#0;n#code#0;n#p#1363;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#code#0;n#code#0;n#code#0;n#code#0;n#code#0;n#p#1363;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#code#0;n#code#0;n#code#0;n#code#0;n#code#0;n#code#0;n#p#1363;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#code#0;n#code#0;n#code#0;n#code#0;n#code#0;n#code#0;n#code#0;n#p#1363;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
