@@ -19,7 +19,7 @@ public class WatsonParser {
 
     public static void main(String args[]) {
         try {
-            Parser parser = new Parser ("http://en.wikibooks.org/wiki/Java_Programming/Print_version");
+            Parser parser = new Parser ("http://docs.oracle.com/javase/specs/jls/se7/html/jls-1.html");
             NodeList list = new NodeList();
 
             TagNameFilter titleTNF = new TagNameFilter("title");
@@ -75,7 +75,7 @@ public class WatsonParser {
         content = content.replaceAll("\\[<a[^>]*>edit</a>]", "");
         content = content.replaceAll("<font[^>]*>", "");
         content = content.replaceAll("</font>", "");
-        content = content.replaceAll("<code>|</code>", "");
+        content = content.replaceAll("<code .*>|</code>", "");
 
 
         // Add tabs and newlines to make it human readable
